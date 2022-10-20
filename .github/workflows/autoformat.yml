@@ -9,3 +9,5 @@ jobs:
     steps:
     - name: 'Autoformat'
       uses: rolfbjarne/autoformat@v0.1
+      with:
+        projects: [ testproject/testproject.csproj ]
