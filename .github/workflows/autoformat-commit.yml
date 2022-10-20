@@ -1,0 +1,14 @@
+name: Autoformat code - push results
+on:
+  workflow_run:
+    workflows: ["Autoformat code"]
+    types:
+      - completed
+
+jobs:
+  push-and-notify:
+    name: Push autoformatted code and notify user
+    runs-on: ubuntu-latest
+    steps:
+    - name: 'Push autoformatted patch'
+      uses: rolfbjarne/autoformat-push@v0.1
