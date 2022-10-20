@@ -13,7 +13,7 @@ jobs:
       github.event.workflow_run.event == 'pull_request' &&
       github.event.workflow_run.conclusion == 'success'
     steps:
-    - name: 'Push autoformatted patch'
-      uses: rolfbjarne/autoformat-push@v0.1
-      with:
-        githubToken: ${{ secrets.GITHUB_TOKEN }}
+      - name: 'Push autoformatted patch'
+        uses: rolfbjarne/autoformat-push@v0.1
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
