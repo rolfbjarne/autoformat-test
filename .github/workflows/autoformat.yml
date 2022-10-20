@@ -7,12 +7,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 'Checkout repo'
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
-        repository: ${{ github.event.pull_request.head.repo.full_name }}
-        ref: ${{ github.event.pull_request.head.sha }}
-
     - name: 'Autoformat'
       uses: rolfbjarne/autoformat@v0.1
