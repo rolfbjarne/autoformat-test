@@ -15,4 +15,4 @@ jobs:
         ref: ${{ github.event.pull_request.head.sha }}
 
     - name: 'Autoformat'
-      uses: rolfbjarne/autoformat
+      uses: rolfbjarne/autoformat@v0.1
