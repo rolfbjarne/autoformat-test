@@ -5,6 +5,9 @@ on:
     types:
       - completed
 
+permissions:
+  pull-requests: write
+
 jobs:
   push-and-notify:
     name: Push autoformatted code and notify user
