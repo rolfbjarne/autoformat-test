@@ -1,4 +1,4 @@
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine ("Hello, World!");
-Console.WriteLine ("Hello, Abomination!");
+Console . WriteLine   ("Hello, Abomination!") ;
 
