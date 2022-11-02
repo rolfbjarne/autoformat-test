@@ -14,4 +14,4 @@ jobs:
     - name: 'Autoformat'
       uses: rolfbjarne/autoformat@v0.1
       with:
-        projects: "testproject/testproject.csproj testproject/testproject.csproj"
+        projects: "testproject/testproject.csproj"
