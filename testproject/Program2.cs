@@ -8,3 +8,4 @@ public    class    BadlyFormatted
 	}
 			}
 
+public class C {}
