@@ -1,11 +1,10 @@
-public    class    BadlyFormatted
-
-{
+public class BadlyFormatted {
 	public
 		static
 			void
-				Nope () {
+				Nope ()
+	{
 	}
-			}
+}
 
-public class C {}
+public class C { }
