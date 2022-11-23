@@ -1,3 +1,2 @@
-class Something
-{
+class Something {
 }
