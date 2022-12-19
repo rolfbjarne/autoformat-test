@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: 'Autoformat'
-      uses: rolfbjarne/autoformat@62c291d6dd85cbe07accf27c15451a9c809eabf5
+      uses: rolfbjarne/autoformat@fbade17c62e824aa1e3c5dce420b27f73d796aa3
       with:
         projects: "testproject/testproject.csproj"
         onlyFilesModifiedInPullRequest: true
