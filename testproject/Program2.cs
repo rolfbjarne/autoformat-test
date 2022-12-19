@@ -8,3 +8,7 @@ public    class    BadlyFormatted
 	}
 			}
 
+
+class DebugGitHub
+{
+}
