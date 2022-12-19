@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: 'Autoformat'
-      uses: rolfbjarne/autoformat@debug-github
+      uses: rolfbjarne/autoformat@62c291d6dd85cbe07accf27c15451a9c809eabf5
       with:
         projects: "testproject/testproject.csproj"
         onlyFilesModifiedInPullRequest: true
