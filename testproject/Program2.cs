@@ -9,3 +9,5 @@ public    class    BadlyFormatted
 			}
 
 class InMain {}
+class
+	OutMain {  } 
