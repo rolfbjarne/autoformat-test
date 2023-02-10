@@ -1,13 +1,12 @@
-public    class    BadlyFormatted
-
-{
+public class BadlyFormatted {
 	public
 		static
 			void
-				Nope () {
+				Nope ()
+	{
 	}
-			}
+}
 
-class InMain {}
+class InMain { }
 class
-	OutMain {  } 
+	OutMain { }
