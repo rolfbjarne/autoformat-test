@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - name: 'Autoformat'
-      uses: rolfbjarne/autoformat@v0.2
+      uses: rolfbjarne/autoformat@v0.2.2-b1
       with:
-        projects: "testproject/testproject.csproj"
+        script: 'dotnet format testproject/testproject.csproj'
         onlyFilesModifiedInPullRequest: true
