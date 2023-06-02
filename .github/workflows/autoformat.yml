@@ -15,4 +15,5 @@ jobs:
       uses: rolfbjarne/autoformat@v0.2.99
       with:
         projects: "testproject/testproject.csproj"
-        dotnetExecutable: "donut"
+        dotnetExecutable: "dotnet"
+        workingDirectory: '../..'
